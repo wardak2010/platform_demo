@@ -1,6 +1,6 @@
 // ############### INPUTS ###############
 // Determine left or right movement 
-move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
+move_x = keyboard_check(vk_right) - keyboard_check(vk_left)
 move_x *= move_speed;
 
 // Check if jumping
@@ -32,6 +32,11 @@ else {
 }
 // ############### ACTUALLY MOVE THE PLAYER OBJECT ###############
 move_and_collide(move_x, move_y, obj_ground);
+
+// ############### OUTSIDE ROOM ###############
+if (y < -20 || y > room_height+20 || x < -20 || x > room_width +20) {
+	room_restart(); //Restart room if object is outside the room
+}
 
 
 	 
