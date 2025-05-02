@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_",
-  "spriteId": null,
+  "name": "obj_hole",
+  "spriteId": {
+    "name": "spr_ground",
+    "path": "sprites/spr_ground/spr_ground.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "platform-game-demo",
-    "path": "platform-game-demo.yyp",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }

@@ -10,3 +10,6 @@ move_y = 0;           // Vertical movement
 // ############### STATE VARIABLES ###############
 is_grounded = false; // On ground?
 is_climbing = false; // On ladder?
+
+
+

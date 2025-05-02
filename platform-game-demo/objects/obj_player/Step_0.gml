@@ -39,6 +39,4 @@ if (y < -20 || y > room_height+20 || x < -20 || x > room_width +20) {
 }
 
 
-	 
-
 
